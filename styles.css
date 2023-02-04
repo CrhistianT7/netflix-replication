@@ -24,8 +24,8 @@
 
 .header {
     display: flex;
-    align-items: center;
-    height: 4.46rem;
+    align-items: self-start;
+    height: 4.16rem;
     padding: 20px 0 0;
     position: relative;
     margin: 0 3.5rem;
@@ -33,18 +33,17 @@
 
 header .logo {
     margin-right: auto;
-    width: 12rem;
-    height: 4rem;
+    width: 13rem;
+    height: 4.25rem;
     position: relative;
-    padding-bottom: 10px;
+    top: -10px;
 }
 
 .Select-container {
     border: 2px solid transparent;
     height: 2.5rem;
     width: 100px;
-    margin-right: 3rem;
-    margin-top: 6px;
+    margin-right: 2rem;
     position: relative;
 }
 
@@ -52,10 +51,11 @@ header .logo {
     content: "\f0ac";
     font: var(--fa-font-solid);
     color: #fff;
+    font-size: 0.74rem;
     position: absolute;
+    top: 30%;
+    left: 0.5rem;
     z-index: 1;
-    top: 23%;
-    left: 4px;
     pointer-events: none;
 }
 
@@ -68,12 +68,11 @@ header .logo {
     border-right: 6px solid transparent;
     position: absolute;
     top:14px;
-    right:6px;
+    right:10px;
     pointer-events: none;
 }
 .select-language {
     width: 100%;
-    width: 6.125rem;
     height: 2.261rem;
     line-height: 1.3rem;
     padding: 8px 22px;
