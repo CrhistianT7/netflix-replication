@@ -7,26 +7,34 @@
     <link rel="icon" href="images/icono1.png">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
     <script src='main.js'></script>
 </head>
 <body>
     <div class="home">
         <div class="home-background">
+            <div class="home-transparent">
             <header class="header">
-                <img src="images/logo.png" class="logo">
-                <select class="select-languaje">
+                <img src="images/Netflix-Logo.wine.svg" class="logo">
+                <div class="Select-container">
+                    <select class="select-language">
                     <option>Español</option>
                     <option>English</option>
                 </select>
-                <button class="login">Iniciar sesión</button>
+                </div>
+                <a href="login.html"class="login">Iniciar sesión</a>   
             </header>
             <div class="hero">
                 <h1>Películas y series ilimitadas y mucho más</h1>
                 <h2>Disfruta donde quieras. Cancela cuando quieras.</h2>
                 <p>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix</p>
                 <input type="email" placeholder="Email" class="hero-email">
-                <input type="submit" value="Comenzar >" class="hero-submit">
+                <button class="hero-submit">
+                    <span>Comenzar</span>
+                </button>
             </div>
+        </div>
         </div>
         <section class="available-platforms">
             <div>
@@ -83,8 +91,6 @@
                         <span>
                          Netflix es un servicio de streaming que ofrece una gran variedad de películas, series y documentales premiados en casi cualquier pantalla conectada a internet.
                          Todo lo que quieras ver, sin límites ni comerciales, a un costo muy accesible. Siempre hay algo nuevo por descubrir,¡y todas las semanas se agregan más peliculas!
-
-                    
                         </span>
                     </div>
                    </li>
