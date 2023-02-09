@@ -71,6 +71,7 @@ header .logo {
     right:6px;
     pointer-events: none;
 }
+
 .select-language {
     width: 100%;
     width: 6.125rem;
@@ -103,6 +104,10 @@ header .logo {
     position: relative;
 }
 
+.login:hover {
+    background: #b80f17;
+}
+
 .hero {
     display: block;
     margin:  auto;
@@ -110,27 +115,25 @@ header .logo {
     padding: 75px 0;
     position: relative;
     text-align: center;
-    justify-content: center;
     width: 100%;
     margin-top: 4rem;
 }
 
 .hero h1 {
-    width: 40rem;
-    height: 6.875rem;
-    font-size: 3.125rem;
+    font-size: 3rem;
     color:#fff ;
-    margin:0 155px;
 }
 
-.hero h2 {
-    width: 40rem;
+.hero p {
     height: 2.062rem;
-    max-width: 50rem;
     font-weight: 400;
     font-size: 1.625rem;
     color:#fff;
-    margin: 1rem auto;
+    margin: 16px 0 0;
+}
+
+.form {
+    margin: 1.5rem 0 0;
 }
 
 .hero-form-container{
@@ -141,8 +144,6 @@ header .logo {
 }
 
 .hero-form-h3 {
-    width: 55.812rem;
-    height: 4.25rem;
     font-size: 19.2px;
     color: #fff;
     padding: 0 47.5px 20px;
@@ -152,21 +153,25 @@ header .logo {
 }
 
 .hero-form-email {
-    width: 28.125rem;
+    width: 25.120rem;
     height: 3.75rem;
     padding: 10px 10px 0;
     display: flex;
     position: relative;
     font-size: 16px;
-    border: 1px solid #8c8c8c;
-    border-bottom-left-radius: 0;
-    border-left: 1px solid #333;
-    border-top-left-radius: 0;
+    border:none;
+   border-radius: 0.25rem;
+}
+
+.hero-form-email:focus {
+    outline: rgb(255, 255, 255) solid 0.125rem;
+    outline-offset: 0.125rem;
 }
 
 .hero-button-container {
     display: flex;
     justify-content: center;
+    gap: 9px;
 }
 
 .button-submit {
@@ -180,8 +185,11 @@ header .logo {
     font-size: 26px;
     cursor: pointer;
     padding: 0 26px;
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
+    border-radius: 0.25rem;
+}
+
+.button-submit:hover {
+    background: #b80f17;
 }
 
 .submit {
